@@ -1,8 +1,39 @@
 /* ========================================
    Float Practice
 ======================================== */
+.cats-right {
+  float: right;
+  background-color: gainsboro;
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
 
+.cats-right figcaption {
+  text-align: center;
+  font-weight: bold;
+  font-size: 80%;
+}
 
+.cats-left figcaption {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(76, 44, 4);
+  text-align: center;
+  font-weight: bold;
+}
+
+.cats-left {
+  float: left;
+  background-color: gainsboro;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem ;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 
 
